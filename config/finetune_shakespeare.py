@@ -6,7 +6,7 @@ eval_iters = 40
 wandb_log = False # feel free to turn on
 wandb_project = 'shakespeare'
 wandb_run_name = 'ft-' + str(time.time())
-
+use_rope = True
 dataset = 'shakespeare'
 init_from = 'gpt2-xl' # this is the largest GPT-2 model
 
